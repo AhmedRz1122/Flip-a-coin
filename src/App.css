@@ -1,0 +1,106 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+body{
+  background-color: black;
+  color: white;
+}
+
+
+/* custom CSS */
+.heading{
+  height: 100px;
+  width: 550px;
+  border: 2px solid grey;
+  position: relative;
+  text-align: left;
+  top: 22px;
+}
+.container{
+  height: 250px;
+  width: 550px;
+  border: 2px solid grey;
+  position: relative;
+  top: 20px;
+  /* perspective: 1000px; */
+}
+.circle{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: 5px solid burlywood;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  background-color:aqua;
+  position: relative;
+ top: 32px;
+}
+.coin-image {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+
+}
+
+.face{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  background-color: aqua;
+}
+.head{
+  background-color: red;
+ color: yellow;
+
+}
+
+.text {
+  font-size: 24px;
+  margin-top: 20px;
+  color: yellow;
+  position: relative;
+  top: 22px;
+}
+.tail{
+  background-color: red;
+ color: yellow;
+}
+
+
+.show{
+  display: block;
+}
+.hidden{
+  display: none;
+}
+.button{
+  height: 60px;
+  width: 100px;
+  content: "";
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 20px;
+  right: 0;
+  text-align: center;
+  margin-right: 23px;
+  padding: 10px 20px;
+  font-size: 24px;
+  
+}
+.button:hover{
+  box-shadow:2px 0px 40px rgb(0, 195, 255);
+}
+
+.show{
+  display: block;
+}
